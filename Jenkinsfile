@@ -21,7 +21,6 @@ node {
         echo "Releasing version ${version}"
         mvn "versions:set -DnewVersion=${version}"
         mvn "-P sign -U clean deploy"
-        junit '**/target/surefire-reports/TEST-*.xml'
         archive '**/target/*.jar'
     }
     milestone 40
