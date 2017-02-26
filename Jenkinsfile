@@ -1,1 +1,2 @@
-releaseMavenJar
+echo "TEST"
+releaseMavenJar()
