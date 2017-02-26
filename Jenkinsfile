@@ -19,7 +19,7 @@ node {
         def pom = readMavenPom file: 'pom.xml'
         def version = pom.version.replace("-SNAPSHOT", "")
         echo "Releasing version ${version}"
-        mvn 'versions:set -DnewVersion=${version}"
+        mvn "versions:set -DnewVersion=${version}"
         mvn '-P sign -U clean deploy"
         junit '**/target/surefire-reports/TEST-*.xml'
         archive '**/target/*.jar'
