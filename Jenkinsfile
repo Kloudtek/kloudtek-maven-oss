@@ -1,3 +1,3 @@
-@Library('maven-jar')
+@Library('maven-jar@master')
 
-releaseMavenJar()
+releaseMavenJar
