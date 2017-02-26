@@ -1,1 +1,1 @@
-sayHello 'Joe'
+releaseMavenJar
