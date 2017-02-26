@@ -1,4 +1,3 @@
 @Library('maven-jar@master')
 
-releaseMavenJar
-
+echo 'TEST 1'
