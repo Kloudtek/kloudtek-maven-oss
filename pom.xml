@@ -5,9 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kloudtek</groupId>
-    <artifactId>kloudtek-oss-parent</artifactId>
+    <artifactId>kloudtek-parent-oss</artifactId>
     <version>0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <name>Kloudtek OSS Parent pom</name>
+    <description>Maven parent for Kloudtek OSS</description>
+    <url>https://github.com/Kloudtek/kloudtek-oss-parent</url>
 
     <organization>
         <name>Kloudtek</name>
@@ -26,6 +30,19 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/Kloudtek/kloudtek-parent-oss</url>
+        <connection>scm:git:git@github.com:Kloudtek/kloudtek-parent-oss.git</connection>
+        <developerConnection>scm:git:git@github.com:Kloudtek/kloudtek-parent-oss.git</developerConnection>
+    </scm>
 
     <build>
         <plugins>
