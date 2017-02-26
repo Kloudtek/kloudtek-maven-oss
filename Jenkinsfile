@@ -1,1 +1,1 @@
-echo 'TEST 1'
+sayHello 'Joe'
