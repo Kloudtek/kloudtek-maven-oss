@@ -6,7 +6,7 @@
 
     <groupId>com.kloudtek</groupId>
     <artifactId>kloudtek-parent-oss</artifactId>
-    <version>0.9-SNAPSHOT</version>
+    <version>0.9.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Kloudtek OSS Parent pom</name>
