@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kloudtek</groupId>
-    <artifactId>kloudtek-parent-oss</artifactId>
+    <artifactId>kloudtek-oss</artifactId>
     <version>0.9.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>OBSOLETE POM - USE kloudtek-oss instead</name>
-    <description>OBSOLETE POM - USE kloudtek-oss instead</description>
-    <url>https://github.com/Kloudtek/kloudtek-oss-parent</url>
+    <name>Kloudtek OSS Parent pom</name>
+    <description>Kloudtek maven parent pom for OSS projects</description>
+    <url>https://github.com/Kloudtek/kloudtek-maven-oss</url>
 
     <organization>
         <name>Kloudtek</name>
@@ -20,8 +20,8 @@
 
     <developers>
         <developer>
-            <name>Kloudtek Developers</name>
-            <url>https://github.com/Kloudtek</url>
+            <name>Kloudtek</name>
+            <url>https://github.com/Kloudtek/</url>
             <organization>Kloudtek</organization>
         </developer>
     </developers>
@@ -39,9 +39,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/Kloudtek/kloudtek-parent-oss</url>
-        <connection>scm:git:git@github.com:Kloudtek/kloudtek-parent-oss.git</connection>
-        <developerConnection>scm:git:git@github.com:Kloudtek/kloudtek-parent-oss.git</developerConnection>
+        <url>https://github.com/Kloudtek/kloudtek-maven-oss</url>
+        <connection>scm:git:git@github.com:Kloudtek/kloudtek-maven-oss.git</connection>
+        <developerConnection>scm:git:git@github.com:Kloudtek/kloudtek-maven-oss.git</developerConnection>
     </scm>
 
     <build>
@@ -96,9 +96,10 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+
     <profiles>
         <profile>
-            <id>sign</id>
+            <id>release</id>
             <build>
                 <plugins>
                     <plugin>
